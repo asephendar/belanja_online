@@ -120,3 +120,71 @@ ul.list-unstyled li a:hover {
     background-color: red;
     border-color: red;
 }
+
+
+/* map */
+
+#contact-us {
+  width: 100%;
+  padding: 0;
+}
+
+#map-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+
+@media (min-width: 576px) {
+  #map iframe {
+      height: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  #map iframe {
+      height: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  #map iframe {
+      height: 500px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #map iframe {
+      height: 600px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #map iframe {
+      height: 700px;
+  }
+}
+
+@media (min-width: 1600px) {
+  #map iframe {
+      height: 800px;
+  }
+}
+
+@media (min-width: 1800px) {
+  #map iframe {
+      height: 900px;
+  }
+}
+
+@media (min-width: 2000px) {
+  #map iframe {
+      height: 1000px;
+  }
+}
