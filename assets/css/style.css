@@ -1,0 +1,122 @@
+:root {
+  --primary-color: #e81818;
+  --secondary-color: #fd6363;
+  --text-color: #333333;
+  --background-color: #ffffff;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+.bg-website {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-website-alt {
+  background-color: var(--secondary-color) !important;
+}
+
+.text-website {
+  color: var(--primary-color) !important;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.fa-1-5x {
+  font-size: 1.5em;
+}
+
+.garis,
+.garis-full {
+  height: 2px;
+  background: var(--primary-color);
+}
+
+.garis {
+  width: 70%;
+}
+
+.garis-full {
+  width: 100%;
+}
+
+.border-gambar {
+  border: 3px solid var(--primary-color);
+  padding: 4px;
+  border-radius: 100%;
+}
+
+.link-hover:hover {
+  color: var(--primary-color) !important;
+  text-decoration: none;
+}
+
+.row-p {
+  margin-left: -5px !important;
+  margin-right: -5px !important;
+}
+
+.col-p {
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+}
+
+.b {
+  font-weight: bold !important;
+}
+
+.gambar-produk {
+  height: 200px !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.hvnb:hover {
+  text-decoration: none;
+}
+
+ul.list-unstyled li a {
+  color: #ffffff !important;
+}
+
+ul.list-unstyled li a:hover {
+  color: #ffffff !important;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.al {
+  text-align: left !important;
+}
+
+.msb:hover {
+  background-color: var(--secondary-color) !important;
+}
+
+.sidebar-brand {
+  text-align: left !important;
+}
+
+.aktif {
+  background-color: var(--secondary-color) !important;
+}
+
+/* pagination */
+
+.page-item.active .page-link {
+    background-color: red;
+    border-color: red;
+}
